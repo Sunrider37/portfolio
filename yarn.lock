@@ -10190,6 +10190,11 @@ sass-loader@^10.0.5:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
+sass-mediascreen@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/sass-mediascreen/-/sass-mediascreen-1.0.3.tgz#edb88c24fc4b3655548607d1db737e3bc3246ae0"
+  integrity sha512-o1laC98V8zeSpxAQ9CRCKcj2EBB+/4+/x+16cedMaLf3OX2GhGmnGKSJeAZkEyzbSPBxQwdPwo6LTaep+xruEw==
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
