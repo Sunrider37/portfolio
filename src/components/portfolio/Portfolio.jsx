@@ -2,58 +2,41 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./Portfolio.scss";
 import {
-  featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  frontend,
+  backend,
+  fullstack,
 } from "../../data";
+import { Link } from "@material-ui/core";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "frontend",
+      title: "Frontend",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "backend",
+      title: "Backend",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    },
+      id: "fullstack",
+      title: "Fullstack",
+    }
+    
   ];
 
   useEffect(() => {
     switch (selected) {
-      case "featured":
-        setData(featuredPortfolio);
+      case "fullstack":
+        setData(fullstack);
         break;
-      case "web":
-        setData(webPortfolio);
-        break;
-      case "mobile":
-        setData(mobilePortfolio);
-        break;
-      case "design":
-        setData(designPortfolio);
-        break;
-      case "content":
-        setData(contentPortfolio);
+      case "backend":
+        setData(backend);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(frontend);
     }
   }, [selected]);
   return (
@@ -66,18 +49,21 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
-          />
+            />
         ))}
       </ul>
       <div className="container">
         {data.map((d) => (
+          
           <div className="item">
-            <img
+            <img 
+             onClick={() => window.open(d.website, "_blank")}
               src={d.img}
               alt=""
-            />
+              />
             <h3>{d.title}</h3>
           </div>
+              
         ))}
       </div>
     </div>

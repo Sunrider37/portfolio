@@ -19,11 +19,11 @@ function Contact() {
                 <h2>
                     Contact
                 </h2>
-                <form onClick={handleSubmit} >
+                <form onSubmit={handleSubmit} >
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>
                     <button type="submit">Send</button>
-                    {message && <span>Thanks, I will reply ASAP</span>}
+                    {message && <span>Thank you for your message, I will reply ASAP</span>}
                 </form>
             </div>
         </div>

@@ -1,187 +1,83 @@
-export const featuredPortfolio = [
+export const frontend = [
+    {
+      id: 1,
+      title: "Travel Website",
+      img:
+        "assets/travel.png",
+      website: "https://site-for-travelling.vercel.app/" 
+    },
+    {
+      id: 2,
+      title: "Netflix Clone",
+      img:
+        "assets/neflix.png",
+      website: "https://netflix-57f8a.web.app/browse"
+    },
+    {
+      id: 3,
+      title: "Chat App",
+      img:
+        "assets/chat.png",
+        website: 'https://chat-app-lemon.vercel.app/'
+    },
+     {
+      id: 4,
+      title: "Trip Advisor",
+      img:
+        "assets/trip.png",
+      website: "https://trip-advisor37.netlify.app/"
+    }
+  ];
+
+  export const backend = [
+    {
+      id: 1,
+      title: "Reddit Clone Backend",
+      img: "https://upload.wikimedia.org/wikipedia/en/3/3a/Reddit_screenshot.png",
+      website: "https://github.com/Sunrider37/reddit-clone-backend-springboot"
+    },
+    {
+      id: 2,
+      title: "Recruitment Service Backend",
+      img: "https://4.imimg.com/data4/FL/XD/MY-11383321/recruitment-service-500x500.jpg",
+    },
+    {
+      id: 3,
+      title: "Spring Boot Microservice Architecture",
+      img: "https://docs.microsoft.com/ru-ru/azure/architecture/includes/images/microservices-logical.png",
+      website: "https://github.com/Sunrider37/microservices.git"
+    }
+  ];
+  
+  export const fullstack = [
     {
       id: 1,
       title: "Social Media App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "assets/social.png",
+      website: 'https://github.com/Sunrider37/social-media'
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Amazon Clone",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "assets/amazon.png",
+      website: "https://clone-57342.web.app/"
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "Instagram Clone",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "assets/instagram.png",
+      website: "https://instagram-o3xa93re7-sunrider37.vercel.app/"
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "E-Commerce Website",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Hero Web Design",
-      img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-    },
-  ];
-
-  export const webPortfolio = [
-    {
-      id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Web Relax App",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Web Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
-    },
-  ];
-  export const mobilePortfolio = [
-    {
-      id: 1,
-      title: "Mobile Social Media App",
-      img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Mobile Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/5249385/screenshots/11256749/media/b0c503068017276bfb41ee8d26dd9b0b.jpg",
-    },
-    {
-      id: 3,
-      title: "Mobile E-commerce Design",
-      img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Mobile Relax App",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Mobile Hero Design",
-      img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
+        "assets/e-commerce.png",
+      website: "https://e-commerce-pi-flax.vercel.app/"  
+    }
   ];
   
-  export const designPortfolio = [
-    {
-      id: 1,
-      title: "Design Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Design Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Design E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Design Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Design Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Design Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
   
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "Content Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Content Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Content E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Content Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Content Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
